@@ -24,6 +24,6 @@ export default class Mathing {
     }
 
     stonedChange() {
-        this.stoneded === true ? this.stoneded = false : this.stoneded = true;
+        this.stoneded = !this.stoneded;
     }
 }

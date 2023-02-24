@@ -36,7 +36,7 @@ test.each([
     { positon: 3, expected: 100 },
     { positon: 4, expected: 100 },
     { positon: 5, expected: 100 },
-])('rules only for the daemon abd magician', ({ positon, expected }) => {
+])('rules only for the daemon and magician', ({ positon, expected }) => {
     const bowman = new Bowman('Lary');
     bowman.setAttack(positon);
     expect(bowman.attack).toBe(expected);
